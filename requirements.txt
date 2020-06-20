@@ -3,3 +3,5 @@ jupyter
 jupyterlab
 matplotlib
 pillow
+tensorboardX
+tensorboard

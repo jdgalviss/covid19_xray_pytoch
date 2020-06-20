@@ -24,12 +24,18 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
 
 RUN pip uninstall -y ipython
 RUN pip install ipython
+RUN pip install tensorboard
+
 
 # COPY FCHarDNet/ /usr/src/app/FCHarDNet 
 COPY *.ipynb /usr/src/app/
 COPY *.py /usr/src/app/
+COPY *.pth /usr/src/app/
+
 
 COPY data/ /usr/src/app/data/
+COPY imgs/ /usr/src/app/imgs/
+
 
 
 #RUN pip install mesh_renderer
