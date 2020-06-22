@@ -1,4 +1,3 @@
-data
 *.vscode
 *.ipynb_checkpoints*
 helper.py
