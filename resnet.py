@@ -1,5 +1,5 @@
 '''
-Implementation based on https://github.com/FrancescoSaverioZuppichini/ResNet/blob/master/ResNet.ipynb
+Implementation taken from https://github.com/FrancescoSaverioZuppichini/ResNet/blob/master/ResNet.ipynb. All rights belong to FrancescoSaverioZuppichini
 '''
 import torch
 import torch.nn as nn
